@@ -12,3 +12,9 @@ Introducción a R:
 
 ## Trabajo en clase
 
+[Pregunta 1](https://github.com/alejandro-isglobal/Practica1/blob/main/q12.png)
+
+[Pregunta 2](https://github.com/alejandro-isglobal/Practica1/blob/main/q13.png)
+
+[Pregunta 3](https://github.com/alejandro-isglobal/Practica1/blob/main/q17.png)
+
