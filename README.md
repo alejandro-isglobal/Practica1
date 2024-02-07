@@ -60,8 +60,8 @@ A lo largo de un año, los importes de tus facturas mensuales del móvil han sid
 
 
 <code>
-mes <- c(\'Enero\',\'Febrero\',\'Marzo\',\'Abril\',\'Mayo\',\'Junio\',
-\'Julio\',\'Agosto\',\'Septiembre\',\'Octubre\',\'Noviembre\',\'Diciembre\')
+mes <- c("Enero","Febrero","Marzo","Abril","Mayo","Junio",
+"Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
 
 
 valor <- c(23, 33, 25, 45, 10, 28, 39, 27, 15, 38, 34, 29) 
