@@ -12,11 +12,11 @@ Introducción a R:
 
 ## Trabajo en clase
 
-[Pregunta 1](https://github.com/alejandro-isglobal/Practica1/blob/main/q12.png)
+[Pregunta 1](Problema1.png)
 
-[Pregunta 2](https://github.com/alejandro-isglobal/Practica1/blob/main/q13.png)
+[Pregunta 2](Problema2.png)
 
-[Pregunta 3](https://github.com/alejandro-isglobal/Practica1/blob/main/q17.png)
+[Pregunta 3](Problema3.png)
 
 
 # Ejercicios Introduccion
