@@ -168,7 +168,7 @@ head(stackloss)
 
 # Ejercicio 2
 
-El conjunto de datos DatosCoches.txt contiene información sobre diferentes marcas de coches. Cárgalo e imprime en pantalla las 6 primeras filas, ¿Cuál es el modelo de la cuarta muestra? (amc)
+El conjunto de datos DatosCoches.txt contiene información sobre diferentes marcas de coches. Desárgalo en el directorio local, cárgalo en R e imprime en pantalla las 6 primeras filas, ¿Cuál es el modelo de la cuarta muestra? (amc)
 
 <code>
 Datos = read.table("DatosCoches.txt",header=TRUE, sep="\t",dec=".")
