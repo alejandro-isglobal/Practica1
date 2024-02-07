@@ -1,0 +1,89 @@
+# Ejercicio 1
+
+- Crea un vector llamado X1 que contenga que 120
+ valores: los cuarenta primeros que sean igual a 3
+, los siguientes treinta y cinco que sean igual a 6
+ y los últimos cuarenta y cinco que sean igual a 18
+.
+
+
+- Calcula la suma de todos sus elementos
+
+- Extrae de X1 los elementos de las posiciones 13, 101, 35, 48, 87, 113, 72 y 96. Llama al vector resultante X2 y calcula la suma de sus elementos.
+
+- Selecciona los primeros 40 elementos de X2, llámalo X3 ¿cuántos elementos tienen el valor igual a 6?
+
+- Calcula el valor cuadrático medio del vector X3, es decir, $Vrms= \sqrt{\frac{1}{n} \sum x^2}$
+ donde x=
+X3 y n
+ es la longitud del vector.
+ 
+# Ejercicio 2
+
+- Crea el vector X que contiene la siguiente información: $[0,\frac{\pi}{16}, 2\frac{\pi}{16}, 3\frac{\pi}{16} ...16\frac{\pi}{16} ]$
+
+- ¿Cuántos elementos tiene el vector X?.
+
+- Calcula la suma de todos sus datos 
+
+
+- Calcula el seno para cada elemento y encuentra el valor máximo y su posición.
+
+- Crea un vector Y a partir del vector X eliminando los datos almacenados en las posiciones 4,9,14. Calcula $\sum \sin(X_i)−\sum \cos(Y_i)$
+.
+
+# Ejercicio 3
+
+A lo largo de un año, los importes de tus facturas mensuales del móvil han sido: 23, 33, 25, 45, 10, 28, 39, 27, 15, 38, 34, 29. Escribe un "script" en "R" en que se cree una tabla de datos (data.frame) con los nombres de los meses y el valor de cada factura. El debe responder automáticamente las siguientes preguntas, incluso si cambia cualquier valor.
+
+
+```{r}
+mes <- c("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+
+
+valor <- c(23, 33, 25, 45, 10, 28, 39, 27, 15, 38, 34, 29) 
+
+facturas <- data.frame (mes,valor)
+
+facturas 
+```
+
+- ¿Cuánto has gastado en total en el año?
+
+- ¿En qué mes has gastado menos dinero? 
+
+- ¿Cuánto ha sido?
+
+- ¿En qué meses has gastado más que el promedio?
+
+
+# Ejercicio 4
+
+En un experimento se tomaron medidas de pH de una sustancia química para determinar su acidez. Se tomaron 25 medidas cada 3 horas y los resultados fueron: 3.08, 3.26, 3.67, 3.79, 3.89, 3.91, 4.11, 4.52, 4.55, 4.59, 4.66, 4.79, 5.02, 5.48, 5.60, 6.00, 6.15, 6.37, 16.38, 6.63, 6.89, 7.05, 7.18, 7.22 y 7.94. Donde la primera medida se tomó en el tiempo 0, la segunda a las 3 horas y así sucesivamente. Crea una tabla de datos (data.frame) que contenga en una variable el tiempo (en horas) en que se tomó la medida y en otra variable el valor del pH.
+
+```{r}
+tiempo <- seq(from=0, by=3, length.out = 25)
+pH <- c(3.08, 3.26, 3.67, 3.79, 3.89, 3.91, 4.11, 4.52, 4.55, 4.59, 4.66, 4.79, 5.02, 5.48, 5.60, 6.00, 6.15, 6.37, 16.38, 6.63, 6.89, 7.05, 7.18, 7.22, 7.94)
+medidas <- data.frame (tiempo,pH)
+
+medidas
+```
+
+- Teniendo en cuenta que el pH es una medida que oscila entre 0 y 14, ¿a las cuántas horas se ha tomado una medida errónea?
+
+
+
+- Elimina dichos valores mal tomados. Recuerda que en su lugar se ha de especificar que la medida no existe, es decir, reemplaza la/las medidas erróneas por "valores faltantes" (NA). Calcula el promedio de la medida de pH de todo el experimento.
+
+
+- Se considera que un pH menor o igual que 5 indica que es una sustancia ácida, entre 5 y 7 (incluido) es normal y, mayor que 7 es alcalina. Agrega a la tabla existente otra variable que indique si el resultado es ácido, neutro o alcalino.
+
+
+
+- ¿Cuantas muestras se han tomado para cada grado de acidez?.
+
+
+
+- ¿Cuál es el promedio de pH para cada grado de acidez?
+
+- Realiza una gráfica que represente el tiempo contra el pH, agrégale dos lineas horizontales que limiten los grados de acidez.
