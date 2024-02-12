@@ -12,6 +12,24 @@ Introducción a R:
 
 ## Trabajo en clase
 
+comandos:
+
+- <code><-</code>
+- <code>$</code>
+- <code>[]</code>
+- <code>:</code>
+- <code>IQR()</code>
+- <code>head()</code>
+- <code>hist()</code>
+- <code>mean()</code>
+- <code>median()</code>
+- <code>pie()</code>
+- <code>quantile(, 0.25)</code>
+- <code>seq()</code>
+- <code>sd()</code>
+- <code>sum()</code>
+- <code>var()</code>
+
 [Pregunta 1](Problema1.png)
 
 [Pregunta 2](Problema2.png)
