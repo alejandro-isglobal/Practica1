@@ -2,7 +2,7 @@
 
 ## Material Práctica 0
 
-Introducción a R: 
+1. Introducción a R: 
 
 - PDFs: [diapos](https://github.com/alejandro-isglobal/alejandro-isglobal.github.io/blob/master/slides/practica1.pdf)
 - Datos: [dat1.txt](https://github.com/alejandro-isglobal/alejandro-isglobal.github.io/blob/master/data/dat1.txt)
@@ -52,7 +52,7 @@ comandos:
 # Ejercicios Introduccion
 # Ejercicio 1
 
-- Crea un vector llamado X1 que contenga que 120
+- Crea un vector llamado $X1$ que contenga que 120
  valores: los cuarenta primeros que sean igual a 3
 , los siguientes treinta y cinco que sean igual a 6
  y los últimos cuarenta y cinco que sean igual a 18
@@ -61,13 +61,12 @@ comandos:
 
 - Calcula la suma de todos sus elementos
 
-- Extrae de X1 los elementos de las posiciones 13, 101, 35, 48, 87, 113, 72 y 96. Llama al vector resultante X2 y calcula la suma de sus elementos.
+- Extrae de $X1$ los elementos de las posiciones 13, 101, 35, 48, 87, 113, 72 y 96. Llama al vector resultante $X2$ y calcula la suma de sus elementos.
 
-- Selecciona los primeros 40 elementos de X2, llámalo X3 ¿cuántos elementos tienen el valor igual a 6?
+- Selecciona los primeros 40 elementos de $X2$, llámalo $X3$ ¿cuántos elementos tienen el valor igual a 6?
 
-- Calcula el valor cuadrático medio del vector X3, es decir, $Vrms= \sqrt{\frac{1}{n} \sum x^2}$
- donde x=
-X3 y n
+- Calcula el valor cuadrático medio del vector $X3$, es decir, $Vrms= \sqrt{\frac{1}{n} \sum x^2}$
+ donde $x=X3$ y $n$
  es la longitud del vector.
  
 # Ejercicio 2
